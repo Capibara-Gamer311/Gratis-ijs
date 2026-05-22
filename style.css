@@ -1,0 +1,274 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: mediumpurple;
+    margin: 0;
+}
+
+* {
+    color: black;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+}
+
+a {
+    font-size: 30px;
+}
+
+a {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 20px; 
+}
+
+.andere-p {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 430;
+    text-align: middle;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdop-filter: blur(10px);
+}
+
+.error-page-h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 650px;
+}
+
+.pagina2 {
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+}
+
+.pagina2:hover {
+    text-decoration: underline;
+}
+
+
+.error-pagina {
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+}
+
+.error-pagina:hover {
+    text-decoration: underline;
+}
+
+
+.brawlstars-fandom {
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+}
+
+.brawlstars-fandom:hover {
+    text-decoration: underline;
+}
+
+.mail-me {
+ text-decoration: none; 
+ color: rgb(0, 89, 255);  
+}
+
+.mail-me:hover {
+    text-decoration: underline;
+}
+
+.pagina3 {
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+}
+
+.pagina3:hover {
+    text-decoration: underline;
+}
+
+
+.back-home {
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+}
+
+.back-home:hover {
+    text-decoration: underline;
+}
+
+button {
+    border-radius: 7px;
+    border-color: black;
+    font-size: 20px;
+    user-select: none;
+    background: mediumpurple;
+    color: black;
+    padding: 5px 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(138, 97, 220);
+}
+
+.error-pagina:active {
+    color: rgb(1, 69, 196) !important;
+}
+
+button:active {
+    background: rgb(124, 79, 213);
+}
+
+.Aura-textje {
+    text-align: left !important;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+.Links-to-pages {
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+}
+
+.Links-to-pages:hover {
+    text-decoration: underline;
+}
+
+.pagina2:active {
+     color: rgb(1, 69, 196) !important;
+}
+
+.pagina3:active {
+     color: rgb(1, 69, 196) !important;
+}
+
+.Links-to-pages:active {
+     color: rgb(1, 69, 196) !important;
+}
+
+.mail-me:active {
+     color: rgb(1, 69, 196) !important;
+}
+
+.brawlstars-fandom:active {
+     color: rgb(1, 69, 196) !important;
+}
+
+.back-home:active {
+     color: rgb(1, 69, 196) !important;
+}
+
+.mail-me, .Back-Up1 {
+    text-align: left;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.Back-Up1 {
+    margin-right: 40px;
+    color: rgb(0, 89, 255);
+    text-decoration: none;
+}
+
+.Back-Up1:hover {
+    text-decoration: underline;
+}
+
+.Back-Up1:active {
+    color: rgb(1, 69, 196) !important;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar a {
+    text-align: left;
+    text-decoration: none;
+}
+
+.links-scratch {
+    font-size: 17px;
+    color: rgb(0, 89, 255);
+    text-decoration: none;
+}
+
+.links-scratch:hover {
+    text-decoration: underline;
+}
+
+.links-scratch:active {
+    color: rgb(1, 69, 196) !important;
+}
+
+.Badges-list {
+    display: inline-block;
+    font-size: 17px;
+    text-align: left;
+}
+
+.list_container2 {
+    text-align: center;
+}
+
+li {
+    text-align: left;
+}
+
+.brawl-stars-links {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+}
+
+.brawl-stars-links:hover {
+    text-decoration: underline;
+}
+
+.brawl-stars-links:active {
+    color: rgb(1, 69, 196) !important;
+}
+
+.my-skills-page {
+    color: rgb(0, 89, 255);
+    text-decoration: none;
+}
+
+.my-skills-page:hover {
+    text-decoration: underline;
+}
+
+.my-skills-page:active {
+    color: rgb(1, 69, 196) !important;
+}

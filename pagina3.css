@@ -1,0 +1,28 @@
+* {
+    color: black;
+    background-color: mediumpurple;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.back-home-page3 {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 89, 255);
+}
+
+.back-home-page3:hover {
+    text-decoration: underline;
+}
+
+.list_container {
+    text-align: center;
+}
+
+.list {
+    display: inline-block;
+    text-align: left;
+}
+
+.back-home-page3:active {
+     color: rgb(1, 69, 196) !important;
+}

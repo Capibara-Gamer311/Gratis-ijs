@@ -1,0 +1,27 @@
+* {
+    color: black;
+    background-color: mediumpurple;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+}
+
+.hello-page2 {
+    font-size: 40px;
+    height: 400px;
+    font-family: "comfortaa", serif;
+}
+
+.back-home-page2 {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 89, 255);
+}
+
+.back-home-page2:hover {
+    text-decoration: underline;
+}
+
+.back-home-page2:active {
+     color: rgb(1, 69, 196) !important;
+}
