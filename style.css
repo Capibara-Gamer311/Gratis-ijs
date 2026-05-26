@@ -123,11 +123,13 @@ button {
     background: mediumpurple;
     color: black;
     padding: 5px 15px;
+    transition: transform 0.3s;
 }
 
 button:hover {
     cursor: pointer;
     background: rgb(138, 97, 220);
+    transform: scale(110%);
 }
 
 .error-pagina:active {
@@ -271,4 +273,8 @@ li {
 
 .my-skills-page:active {
     color: rgb(1, 69, 196) !important;
+}
+
+.kleine-l {
+    font-size: 1px;
 }

@@ -4,3 +4,42 @@
     text-align: center;
     background-color: mediumpurple;
 }
+
+.css-plaatje {
+    width: 150px;
+    height: auto;
+}
+
+.js-plaatje {
+    width: 340px;
+    height: auto;
+}
+
+footer {
+    position: fixed;
+    font-size: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    padding: 0 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdop-filter: blur(10px);
+}
+
+.back-home {
+    color: rgb(0, 89, 255);
+    text-decoration: none;
+}
+
+.back-home:hover {
+    text-decoration: underline;
+}
+
+.back-home:active {
+    color: rgb(1, 69, 196) !important;
+}
